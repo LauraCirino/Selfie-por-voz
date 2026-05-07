@@ -6,7 +6,7 @@ function start() {
     recognition.start();
 }
 
-recognition.onresult = fuction(event) {
+recognition.onresult = function(event) {
     let content = event.results[0][0].transcript;
     document.getElementById("textbox").innerHTML = content;
 }
