@@ -1,0 +1,27 @@
+body{
+    background-color: beige;
+    align-items: center;
+    text-align: center;
+}
+
+#start-bnt {
+    width: 40%;
+}
+
+#camera{
+    wigth: 360px;
+    height: 250px;
+    border: 1px solid maroon;
+    margin: auto;
+}
+
+#logo-img {
+    width: 150px;
+    border-radius: 100px;
+}
+
+#textbox {
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
