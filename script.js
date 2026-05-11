@@ -17,7 +17,7 @@ recognition.onresult = function(event) {
 function speak() {
     let synth = window.speechSynthesis;
     let speakData = "tirando sua Selfie em 5 segundos"
-    let utterThis = new SpeechSynthesisuUtterance(speakData);
+    let utterThis = new SpeechSynthesisUtterance(speakData);
 
     synth.speak(utterThis);
     Webcam.attach(camera);
@@ -39,7 +39,7 @@ camera = document.getElementById("camera")
 
 function takeSnapshot(){
     Webcam.snap(function(data_uri){
-        document.getElementById("result").innerHTML = '<img id="selfieImage" src-"'+data_uri+'">';
+        document.getElementById("result").innerHTML = '<img id="selfieImage" src="'+data_uri+'">';
     });
 }
 
@@ -48,5 +48,5 @@ function save(){
     let image = document.getElementById("selfieImage").src;
     link.href = image;
     link.click();
-    
+
 }
