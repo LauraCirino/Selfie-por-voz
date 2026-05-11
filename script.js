@@ -42,3 +42,11 @@ function takeSnapshot(){
         document.getElementById("result").innerHTML = '<img id="selfieImage" src-"'+data_uri+'">';
     });
 }
+
+function save(){
+    let link = document.getElementById("link");
+    let image = document.getElementById("selfieImage").src;
+    link.href = image;
+    link.click();
+    
+}
