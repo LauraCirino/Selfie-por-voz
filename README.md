@@ -33,7 +33,7 @@ E WebApp que tira fotos por comando de voz, basta dizer a palavra "selfie" e agu
 1. Clone ou baixe este repositório.
 
 ```bash
-git clone https://github.com/cigarraa/Selfie-por-voz
+git clone https://github.com/LauraCirino/Selfie-por-voz
 ```
 
 2. Abra o arquivo `index.html` em seu navegador.
@@ -48,5 +48,5 @@ git clone https://github.com/cigarraa/Selfie-por-voz
 - **Isenção de Garantia:** O software é fornecido "como está", sem garantias de qualquer tipo, explícitas ou implícitas. Os autores não são responsáveis por quaisquer danos decorrentes do uso do software.
 
 ## 👩🏻‍💻 Autor(es)
-- [@cigarraa](https://github.com/cigarraa)
+- [@LauraCirino](https://github.com/LauraCirino)
 
